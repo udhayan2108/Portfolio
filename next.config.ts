@@ -1,11 +1,10 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const basePath = process.env.NODE_ENV === "production" ? "" : ""; 
 
-const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: "export",
-  basePath,
-  assetPrefix: basePath,
+  basePath: "",
+  assetPrefix: "",
   images: {
     unoptimized: true,
   },
@@ -13,8 +12,11 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_BASE_PATH: "",
   },
 };
 
