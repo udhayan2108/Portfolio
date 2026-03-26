@@ -1,0 +1,162 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "udhayan.b@example.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:udhayan.b@example.com"
+      },
+      {
+        "type": "phone",
+        "label": "+91 98765 43210",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+919876543210"
+      },
+      {
+        "type": "website",
+        "label": "www.udhayansportfolio.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.udhayansportfolio.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "dribbble",
+        "icon": "/images/icon/dribble-icon.svg",
+        "link": "https://dribbble.com"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://linkedin.com"
+      },
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://facebook.com"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Secondary Education (10th Grade)",
+        "institution": "SJN International School",
+        "points": [
+          "Completed secondary education with a strong foundation in Mathematics, Science, and Computer Science.",
+          "Focused on core subjects including CS fundamentals and problem solving.",
+          "Participated in inter-school academic and coding challenges."
+        ]
+      },
+      {
+        "title": "Higher Secondary Education (12th Grade)",
+        "institution": "The Indian Public School, Erode",
+        "points": [
+          "Completed higher secondary with strong focus on Science and Mathematics.",
+          "Built analytical and logical thinking through lab work and projects.",
+          "Consistently obtained high grades in computer-related subjects."
+        ]
+      },
+      {
+        "title": "B.E. Computer Science and Engineering",
+        "institution": "Kongu Engineering College",
+        "points": [
+          "Currently pursuing coursework in software development, data structures, and web technologies.",
+          "Working on practical projects and participating in hackathons.",
+          "Developing portfolio applications with React, Node.js, and databases.",
+          "Maintaining a GPA of 8.4, ranking in the top 10% of the class."
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Figma",
+        "icon": "/images/home/education-skill/figma-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Photoshop",
+        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Sketch",
+        "icon": "/images/home/education-skill/sketch-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Adobe XD",
+        "icon": "/images/home/education-skill/adobe-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Framer",
+        "icon": "/images/home/education-skill/framer-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Invasion",
+        "icon": "/images/home/education-skill/invision-icon.svg",
+        "rating": 3
+      }
+    ],
+    "skillsDetails": [
+      {
+        "category": "Frontend Development",
+        "icon": "/images/icon/dribble-icon.svg",
+        "items": ["HTML", "CSS", "Responsive Web Design", "Basic UI/UX understanding"]
+      },
+      {
+        "category": "Backend Development",
+        "icon": "/images/icon/success-icon.svg",
+        "items": ["PHP", "Node.js", "Python", "Java"]
+      },
+      {
+        "category": "Database Management",
+        "icon": "/images/icon/lang-icon.svg",
+        "items": ["MySQL", "MongoDB"]
+      },
+      {
+        "category": "Mobile & Other Technologies",
+        "icon": "/images/icon/call-icon.svg",
+        "items": ["Flutter (for cross-platform app development)"]
+      },
+      {
+        "category": "Design & Tools",
+        "icon": "/images/icon/dribble-icon.svg",
+        "items": ["Adobe Photoshop", "Canva (for design and content creation)", "Adobe Premiere Pro (video editing)"]
+      }
+    ],
+    "skillNote": "Strong problem-solving abilities, quick learner, and passionate about building real-world applications."
+
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Dribble",
+        "href": "/"
+      },
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "hello@imsruthi.com",
+        "link": "mailto:hello@imsruthi.com"
+      },
+      {
+        "type": "phone",
+        "label": "+901 5588 2500",
+        "link": "tel:+90155882500"
+      }
+    ]
+  }
+}
